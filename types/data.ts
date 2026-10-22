@@ -19,9 +19,10 @@ export type ProjectStatus =
   | 'archived';
 
 export interface LinkItem {
+  id: string;
   label?: string;
   href: string;
-  icon?: IconType;
+  icon: IconType;
 }
 
 export interface Skill {
